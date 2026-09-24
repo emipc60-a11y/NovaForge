@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaForge — Apps built for everyone</title>
+  <meta name="description" content="NovaForge — a home for useful apps, tools and games.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand-mark">N</span>
+      <span>NovaForge</span>
+    </a>
+    <nav>
+      <a href="#apps">Apps</a>
+      <a href="#categories">Categories</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">SOFTWARE • TOOLS • GAMES</span>
+        <h1>Discover apps made to be useful.</h1>
+        <p>NovaForge is a simple home for lightweight, useful software and projects.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#apps">Explore apps</a>
+          <a class="btn secondary" href="#about">About NovaForge</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="NovaForge artwork placeholder">
+        <div class="orb"></div>
+        <div class="hero-card">
+          <span>⚡</span>
+          <strong>NovaForge</strong>
+          <small>Apps built for everyone.</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="apps" class="section">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">FEATURED</span>
+          <h2>Latest apps</h2>
+        </div>
+        <div class="search-wrap">
+          <input id="search" type="search" placeholder="Search apps...">
+        </div>
+      </div>
+
+      <div id="app-grid" class="app-grid">
+        <article class="app-card" data-name="OldPC-Boost" data-category="Optimization">
+          <div class="app-icon boost">⚡</div>
+          <div class="app-info">
+            <span class="tag">Optimization</span>
+            <h3>OldPC-Boost</h3>
+            <p>Tools designed to help reduce unnecessary load on older Windows PCs.</p>
+            <div class="app-meta"><span>Windows</span><span>Free</span></div>
+           <a class="download-btn" href="OldPC-Boost.exe" download>Download</a>
+          </div>
+        </article>
+
+        <article class="app-card" data-name="Coming Soon" data-category="More">
+          <div class="app-icon soon">＋</div>
+          <div class="app-info">
+            <span class="tag">More</span>
+            <h3>Coming soon</h3>
+            <p>New NovaForge apps will appear here.</p>
+            <div class="app-meta"><span>New</span><span>Free</span></div>
+            <button class="download-btn disabled" type="button" disabled>Coming soon</button>
+          </div>
+        </article>
+      </div>
+      <p id="no-results" class="no-results" hidden>No apps found.</p>
+    </section>
+
+    <section id="categories" class="section categories">
+      <span class="eyebrow">BROWSE</span>
+      <h2>Categories</h2>
+      <div class="category-grid">
+        <div>⚡ <span>Optimization</span></div>
+        <div>🛠️ <span>Utilities</span></div>
+        <div>🎨 <span>Graphics</span></div>
+        <div>🎬 <span>Video</span></div>
+        <div>🎮 <span>Games</span></div>
+        <div>🌐 <span>Internet</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div>
+        <span class="eyebrow">ABOUT</span>
+        <h2>Built as a home for your projects.</h2>
+        <p>NovaForge will grow over time with new apps, updates, screenshots and downloads.</p>
+      </div>
+      <div class="about-mark">N</div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 NovaForge</span>
+    <span>Apps built for everyone.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
